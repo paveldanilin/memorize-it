@@ -1,0 +1,27 @@
+{
+  "name": "boottest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist/*"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "popper.js": "1.15.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-bootstrap": "1.0.0-beta.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "1.12.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
