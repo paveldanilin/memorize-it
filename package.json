@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "npm run-script clean && parcel build src/index.html",
+    "build": "npm run-script clean && parcel build src/index.html --no-source-maps --public-url ./",
     "clean": "rm -rf dist/*",
-    "deploy": "npm run-script build && gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "4.3.1",

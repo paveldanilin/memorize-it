@@ -21,7 +21,7 @@ export default class App extends React.Component {
                         <div className="row">
                             <div className="col-sm-12">
                                 <Switch>
-                                    <Route exact path="/">
+                                    <Route path="/">
                                         <HomePage />
                                     </Route>
                                     <Route>
