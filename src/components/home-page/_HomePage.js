@@ -1,10 +1,10 @@
 import * as React from "react";
 import {Form, Col, Button, Row, Image} from 'react-bootstrap';
-import IrregularWordService from '../../services/IrregularWordService';
+import IrregularWord from '../../services/IrregularWordService';
 
-const irregularWordService = new IrregularWordService();
+const irregularWordService = new IrregularWord();
 
-export default class Home extends React.Component {
+export default class _HomePage extends React.Component {
     constructor(props) {
         super(props);
 
@@ -45,8 +45,8 @@ export default class Home extends React.Component {
 
         if (this.state.verb.simplePast !== this.state.simplePast) {
             isCorrect = false;
-            document.getElementById('simplePast').classList.add('alert');
-            document.getElementById('simplePast').classList.add('alert-danger');
+            document.getElementById('pastSimple').classList.add('alert');
+            document.getElementById('pastSimple').classList.add('alert-danger');
         }
 
         if (this.state.verb.pastParticiple !== this.state.pastParticiple) {

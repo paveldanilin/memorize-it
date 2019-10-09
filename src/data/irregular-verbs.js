@@ -1,35 +1,117 @@
 const IrregularVerbs = [
     {
+        locale: {
+            ru: 'возникать, появляться'
+        },
         infinitive: 'arise',
-        simplePast: 'arose',
+        pastSimple: 'arose',
         pastParticiple: 'arisen',
-        examples: [
-            'Should the opportunity arise, I\'d love to go to China.',
-            'Could you work on Saturday, should the need arise (= if it were to be necessary)?',
-            'Are there any matters arising from (= caused by) the last meeting?'
-        ]
+        examples: [],
     },
     {
+        locale: {
+            ru: 'проснуться, пробудиться'
+        },
         infinitive: 'awake',
-        simplePast: 'awoke',
+        pastSimple: 'awoke',
         pastParticiple: 'awoken',
-        img: 'https://www.eagle777spirit.com/wp-content/uploads/2018/11/arise-900x500.jpg',
-        examples: []
     },
     {
+        locale: {
+            ru: 'становиться'
+        },
         infinitive: 'become',
-        simplePast: 'became',
+        pastSimple: 'became',
         pastParticiple: 'become',
-        img: 'https://www.sbs.com.au/topics/sites/sbs.com.au.topics/files/styles/full/public/gettyimages-499784755.jpg?itok=zsn7PQbM&mtime=1518048000',
-        examples: []
     },
     {
+        locale: {
+            ru: 'бежать'
+        },
         infinitive: 'run',
-        simplePast: 'ran',
+        pastSimple: 'ran',
         pastParticiple: 'run',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq78kuEETTMnV2y0KoGtXsT2x8l4V_lrobD0u3QZqNy_iBVilm',
-        examples: []
-    }
+    },
+    {
+        locale: {
+            ru: 'бить, ударять'
+        },
+        infinitive: 'beat',
+        pastSimple: 'beat',
+        pastParticiple: 'beaten',
+    },
+    {
+        locale: {
+            ru: 'начинать'
+        },
+        infinitive: 'begin',
+        pastSimple: 'began',
+        pastParticiple: 'begun',
+    },
+    {
+        locale: {
+            ru: 'сгибать'
+        },
+        infinitive: 'bend',
+        pastSimple: 'bent',
+        pastParticiple: 'bent',
+    },
+    {
+        locale: {
+            ru: 'держать пари'
+        },
+        infinitive: 'bet',
+        pastSimple: 'bet',
+        pastParticiple: 'bet',
+    },
+    {
+        locale: {
+            ru: 'кусать'
+        },
+        infinitive: 'bite',
+        pastSimple: 'bit',
+        pastParticiple: 'bitten',
+    },
+    {
+        locale: {
+            ru: 'кровоточить'
+        },
+        infinitive: 'bleed',
+        pastSimple: 'bled',
+        pastParticiple: 'bled',
+    },
+    {
+        locale: {
+            ru: 'дуть'
+        },
+        infinitive: 'blow',
+        pastSimple: 'blew',
+        pastParticiple: 'blown',
+    },
+    {
+        locale: {
+            ru: 'ломать'
+        },
+        infinitive: 'break',
+        pastSimple: 'broke',
+        pastParticiple: 'broken',
+    },
+    {
+        locale: {
+            ru: 'размножаться, разводить'
+        },
+        infinitive: 'breed',
+        pastSimple: 'bred',
+        pastParticiple: 'bred',
+    },
+    {
+        locale: {
+            ru: 'приносить, приводить'
+        },
+        infinitive: 'bring',
+        pastSimple: 'brought',
+        pastParticiple: 'brought',
+    },
 ];
 
 export { IrregularVerbs };

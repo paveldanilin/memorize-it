@@ -1,8 +1,8 @@
 import * as React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
-import Home from './components/home/Home';
-import NotFound from "./components/notfound/NotFound";
+import HomePage from './components/home-page/HomePage';
+import NotFoundPage from "./components/notfound-page/NotFoundPage";
 
 export default class App extends React.Component {
     constructor(props) {
@@ -22,10 +22,10 @@ export default class App extends React.Component {
                             <div className="col-sm-12">
                                 <Switch>
                                     <Route exact path="/">
-                                        <Home />
+                                        <HomePage />
                                     </Route>
                                     <Route>
-                                        <NotFound/>
+                                        <NotFoundPage/>
                                     </Route>
                                 </Switch>
                             </div>

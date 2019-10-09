@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
-    "clean": "rm -rf dist/*"
+    "build": "npm run-script clean && parcel build src/index.html",
+    "clean": "rm -rf dist/*",
+    "deploy": "npm run-script build && gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "4.3.1",
@@ -15,9 +16,11 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-bootstrap": "1.0.0-beta.12",
-    "react-router-dom": "5.1.2"
+    "react-router-dom": "5.1.2",
+    "prop-types": "15.7.2"
   },
   "devDependencies": {
+    "gh-pages": "2.1.1",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
