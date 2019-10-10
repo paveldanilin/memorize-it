@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {Button, Col, Form, Image, Row} from "react-bootstrap";
 import UsageExamples from "../usage-examples/usage-examples";
 import IrregularWord from "../../services/irregular-word";
@@ -85,6 +85,10 @@ const IrregularVerbExercise = ({}) => {
             setPastParticipleInput(hintNumber === 3 ? verb.pastParticiple : '');
         }
     };
+
+    useEffect(() => {
+        document.getElementById('infinitive').focus();
+    }, [verb]);
 
     return (
         <>
