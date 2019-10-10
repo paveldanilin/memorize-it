@@ -104,7 +104,7 @@ const IrregularVerbExercise = ({}) => {
                         'Infinitive',
                         false,
                         infinitiveInvalid,
-                        (e) => setInfinitiveInput(e.target.value))
+                        (e) => setInfinitiveInput(e.target.value.toLowerCase()))
                     }
                     { renderWordInput(
                         'pastSimple',
@@ -112,7 +112,7 @@ const IrregularVerbExercise = ({}) => {
                         'Past simple',
                         false,
                         pastSimpleInvalid,
-                        (e) => setPastSimpleInput(e.target.value))
+                        (e) => setPastSimpleInput(e.target.value.toLowerCase()))
                     }
                     { renderWordInput(
                         'pastParticiple',
@@ -120,7 +120,7 @@ const IrregularVerbExercise = ({}) => {
                         'Past participle',
                         false,
                         pastParticipleInvalid,
-                        (e) => setPastParticipleInput(e.target.value))
+                        (e) => setPastParticipleInput(e.target.value.toLowerCase()))
                     }
                 </Form.Row>
 
