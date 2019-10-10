@@ -72,7 +72,7 @@ const IrregularVerbExercise = ({}) => {
 
     const BTN_CHECK_ID = 'btn-check';
     const BTN_HELPME_ID = 'btn-help-me';
-    const hintNumber = Math.floor(Math.random() * 3) + 1;
+    const hintNumber = Math.floor(Math.random() * 4) + 1;
 
     const [verb, setVerb] = useState(irregularWordService.getRandom);
 
@@ -97,7 +97,7 @@ const IrregularVerbExercise = ({}) => {
             // onPass(e);
             const verb = irregularWordService.getRandom();
             setVerb(verb);
-            const hintNumber = Math.floor(Math.random() * 3) + 1;
+            const hintNumber = Math.floor(Math.random() * 4) + 1;
             setInfinitiveInput(hintNumber === 1 ? verb.infinitive : '');
             setPastSimpleInput(hintNumber === 2 ? verb.pastSimple : '');
             setPastParticipleInput(hintNumber === 3 ? verb.pastParticiple : '');
