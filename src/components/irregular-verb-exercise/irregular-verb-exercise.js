@@ -52,8 +52,26 @@ function renderWordInput(id, word, description, readonly, invalid, onChange) {
     );
 }
 
+function disableButtonById(id) {
+    const el = document.getElementById(id);
+    if (el.tagName !== 'BUTTON') {
+        return;
+    }
+    el.disabled = true;
+}
+
+function enableButtonById(id) {
+    const el = document.getElementById(id);
+    if (el.tagName !== 'BUTTON') {
+        return;
+    }
+    el.disabled = false;
+}
+
 const IrregularVerbExercise = ({}) => {
 
+    const BTN_CHECK_ID = 'btn-check';
+    const BTN_HELPME_ID = 'btn-help-me';
     const hintNumber = Math.floor(Math.random() * 3) + 1;
 
     const [verb, setVerb] = useState(irregularWordService.getRandom);
@@ -86,8 +104,16 @@ const IrregularVerbExercise = ({}) => {
         }
     };
 
+    const onHelp = (e) => {
+        setInfinitiveInput(verb.infinitive);
+        setPastSimpleInput(verb.pastSimple);
+        setPastParticipleInput(verb.pastParticiple);
+        disableButtonById(BTN_HELPME_ID);
+    };
+
     useEffect(() => {
         document.getElementById('infinitive').focus();
+        enableButtonById(BTN_HELPME_ID);
     }, [verb]);
 
     return (
@@ -132,7 +158,10 @@ const IrregularVerbExercise = ({}) => {
 
                 <Form.Row>
                     <Col className="text-center">
-                        <Button variant="outline-primary" type="submit">Check!</Button>
+                        <div className="btn-group">
+                            <Button id={BTN_CHECK_ID} variant="outline-primary" type="submit">Check Me!</Button>
+                            <Button id={BTN_HELPME_ID} variant="outline-secondary" onClick={onHelp}>Help Me!</Button>
+                        </div>
                     </Col>
                 </Form.Row>
             </Form>
