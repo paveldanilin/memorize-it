@@ -368,6 +368,494 @@ const IrregularVerbs = [
         pastSimple: 'hit',
         pastParticiple: 'hit',
     },
+    {
+        locale: {
+            ru: 'держать, владеть'
+        },
+        infinitive: 'hold',
+        pastSimple: 'held',
+        pastParticiple: 'held',
+    },
+    {
+        locale: {
+            ru: 'делать больно, обижать'
+        },
+        infinitive: 'hurt',
+        pastSimple: 'hurt',
+        pastParticiple: 'hurt',
+    },
+    {
+        locale: {
+            ru: 'хранить, содержать'
+        },
+        infinitive: 'keep',
+        pastSimple: 'kept',
+        pastParticiple: 'kept',
+    },
+    {
+        locale: {
+            ru: 'знать'
+        },
+        infinitive: 'know',
+        pastSimple: 'knew',
+        pastParticiple: 'known',
+    },
+    {
+        locale: {
+            ru: 'лежать, класть'
+        },
+        infinitive: 'lay',
+        pastSimple: 'laid',
+        pastParticiple: 'laid',
+    },
+    {
+        locale: {
+            ru: 'вести, приводить'
+        },
+        infinitive: 'lead',
+        pastSimple: 'led',
+        pastParticiple: 'led',
+    },
+    {
+        locale: {
+            ru: 'опираться, прислоняться'
+        },
+        infinitive: 'lean',
+        pastSimple: 'leant',
+        pastParticiple: 'leant',
+    },
+    {
+        locale: {
+            ru: 'оставлять, уезжать'
+        },
+        infinitive: 'leave',
+        pastSimple: 'left',
+        pastParticiple: 'left',
+    },
+    {
+        locale: {
+            ru: 'давать в займы, одалживать'
+        },
+        infinitive: 'lend',
+        pastSimple: 'lent',
+        pastParticiple: 'lent',
+    },
+    {
+        locale: {
+            ru: 'позволять'
+        },
+        infinitive: 'let',
+        pastSimple: 'let',
+        pastParticiple: 'let',
+    },
+    {
+        locale: {
+            ru: 'терять, проигрывать, упускать'
+        },
+        infinitive: 'lose',
+        pastSimple: 'lost',
+        pastParticiple: 'lost',
+    },
+    {
+        locale: {
+            ru: 'создавать, делать'
+        },
+        infinitive: 'make',
+        pastSimple: 'made',
+        pastParticiple: 'made',
+    },
+    {
+        locale: {
+            ru: 'иметь ввиду, значить'
+        },
+        infinitive: 'mean',
+        pastSimple: 'meant',
+        pastParticiple: 'meant',
+    },
+    {
+        locale: {
+            ru: 'встречать, соответсвовать (требованиям)'
+        },
+        infinitive: 'meet',
+        pastSimple: 'met',
+        pastParticiple: 'met',
+    },
+    {
+        locale: {
+            ru: 'встречать, знакомиться, соответсвовать (требованиям)'
+        },
+        infinitive: 'meet',
+        pastSimple: 'met',
+        pastParticiple: 'met',
+    },
+    {
+        locale: {
+            ru: 'платить'
+        },
+        infinitive: 'pay',
+        pastSimple: 'paid',
+        pastParticiple: 'paid',
+    },
+    {
+        locale: {
+            ru: 'класть, положить'
+        },
+        infinitive: 'put',
+        pastSimple: 'put',
+        pastParticiple: 'put',
+    },
+    {
+        locale: {
+            ru: 'прекращать, бросать, оставлять'
+        },
+        infinitive: 'quit',
+        pastSimple: 'quit',
+        pastParticiple: 'quit',
+    },
+    {
+        locale: {
+            ru: 'читать'
+        },
+        infinitive: 'read',
+        pastSimple: 'read',
+        pastParticiple: 'read',
+    },
+    {
+        locale: {
+            ru: 'скакать, ехать верхом'
+        },
+        infinitive: 'ride',
+        pastSimple: 'rode',
+        pastParticiple: 'ridden',
+    },
+    {
+        locale: {
+            ru: 'звенеть, звонить'
+        },
+        infinitive: 'ring',
+        pastSimple: 'rang',
+        pastParticiple: 'rung',
+    },
+    {
+        locale: {
+            ru: 'говорить'
+        },
+        infinitive: 'say',
+        pastSimple: 'said',
+        pastParticiple: 'said',
+    },
+    {
+        locale: {
+            ru: 'видеть, смотреть'
+        },
+        infinitive: 'see',
+        pastSimple: 'saw',
+        pastParticiple: 'seen',
+    },
+    {
+        locale: {
+            ru: 'продавать, торговать'
+        },
+        infinitive: 'sell',
+        pastSimple: 'sold',
+        pastParticiple: 'sold',
+    },
+    {
+        locale: {
+            ru: 'отправлять, посылать'
+        },
+        infinitive: 'send',
+        pastSimple: 'sent',
+        pastParticiple: 'sent',
+    },
+    {
+        locale: {
+            ru: 'устанавливать, размещать'
+        },
+        infinitive: 'set',
+        pastSimple: 'set',
+        pastParticiple: 'set',
+    },
+    {
+        locale: {
+            ru: 'трясти, встряхивать'
+        },
+        infinitive: 'shake',
+        pastSimple: 'shook',
+        pastParticiple: 'shaken',
+    },
+    {
+        locale: {
+            ru: 'сиять, озарять'
+        },
+        infinitive: 'shine',
+        pastSimple: 'shone',
+        pastParticiple: 'shone',
+    },
+    {
+        locale: {
+            ru: 'стрелять'
+        },
+        infinitive: 'shoot',
+        pastSimple: 'shot',
+        pastParticiple: 'shot',
+    },
+    {
+        locale: {
+            ru: 'показывать'
+        },
+        infinitive: 'show',
+        pastSimple: 'showed',
+        pastParticiple: 'shown',
+    },
+    {
+        locale: {
+            ru: 'сокращать, сживать'
+        },
+        infinitive: 'shrink',
+        pastSimple: 'shrank',
+        pastParticiple: 'shrunk',
+    },
+    {
+        locale: {
+            ru: 'закрывать'
+        },
+        infinitive: 'shut',
+        pastSimple: 'shut',
+        pastParticiple: 'shut',
+    },
+    {
+        locale: {
+            ru: 'петь'
+        },
+        infinitive: 'sing',
+        pastSimple: 'sang',
+        pastParticiple: 'sung',
+    },
+    {
+        locale: {
+            ru: 'тонуть'
+        },
+        infinitive: 'sink',
+        pastSimple: 'sank',
+        pastParticiple: 'sunk',
+    },
+    {
+        locale: {
+            ru: 'сидеть'
+        },
+        infinitive: 'sit',
+        pastSimple: 'sat',
+        pastParticiple: 'sat',
+    },
+    {
+        locale: {
+            ru: 'спать'
+        },
+        infinitive: 'sleep',
+        pastSimple: 'slept',
+        pastParticiple: 'slept',
+    },
+    {
+        locale: {
+            ru: 'говорить, разговаривать'
+        },
+        infinitive: 'speak',
+        pastSimple: 'spoke',
+        pastParticiple: 'spoken',
+    },
+    {
+        locale: {
+            ru: 'тратить, проводить(время)'
+        },
+        infinitive: 'spend',
+        pastSimple: 'spent',
+        pastParticiple: 'spent',
+    },
+    {
+        locale: {
+            ru: 'проливать, разливать'
+        },
+        infinitive: 'spill',
+        pastSimple: 'spilt',
+        pastParticiple: 'spilt',
+    },
+    {
+        locale: {
+            ru: 'распространять'
+        },
+        infinitive: 'spread',
+        pastSimple: 'spread',
+        pastParticiple: 'spread',
+    },
+    {
+        locale: {
+            ru: 'мчаться'
+        },
+        infinitive: 'speed',
+        pastSimple: 'sped',
+        pastParticiple: 'sped',
+    },
+    {
+        locale: {
+            ru: 'стоять, терпеть'
+        },
+        infinitive: 'stand',
+        pastSimple: 'stood',
+        pastParticiple: 'stood',
+    },
+    {
+        locale: {
+            ru: 'красть, воровать'
+        },
+        infinitive: 'steal',
+        pastSimple: 'stole',
+        pastParticiple: 'stolen',
+    },
+    {
+        locale: {
+            ru: 'втыкать, приклеивать'
+        },
+        infinitive: 'stick',
+        pastSimple: 'stuck',
+        pastParticiple: 'stuck',
+    },
+    {
+        locale: {
+            ru: 'жалить, щипать'
+        },
+        infinitive: 'sting',
+        pastSimple: 'stung',
+        pastParticiple: 'stung',
+    },
+    {
+        locale: {
+            ru: 'вонять'
+        },
+        infinitive: 'stink',
+        pastSimple: 'stank',
+        pastParticiple: 'stunk',
+    },
+    {
+        locale: {
+            ru: 'клясться'
+        },
+        infinitive: 'swear',
+        pastSimple: 'swore',
+        pastParticiple: 'sworn',
+    },
+    {
+        locale: {
+            ru: 'мести, вычищать'
+        },
+        infinitive: 'sweep',
+        pastSimple: 'swept',
+        pastParticiple: 'swept',
+    },
+    {
+        locale: {
+            ru: 'плавать, плыть'
+        },
+        infinitive: 'swim',
+        pastSimple: 'swam',
+        pastParticiple: 'swum',
+    },
+    {
+        locale: {
+            ru: 'качать'
+        },
+        infinitive: 'swing',
+        pastSimple: 'swung',
+        pastParticiple: 'swung',
+    },
+    {
+        locale: {
+            ru: 'брать, воспринимать'
+        },
+        infinitive: 'take',
+        pastSimple: 'took',
+        pastParticiple: 'taken',
+    },
+    {
+        locale: {
+            ru: 'обучать, учить'
+        },
+        infinitive: 'teach',
+        pastSimple: 'taught',
+        pastParticiple: 'taught',
+    },
+    {
+        locale: {
+            ru: 'рвать, срывать'
+        },
+        infinitive: 'tear',
+        pastSimple: 'tore',
+        pastParticiple: 'torn',
+    },
+    {
+        locale: {
+            ru: 'рассказывать'
+        },
+        infinitive: 'tell',
+        pastSimple: 'told',
+        pastParticiple: 'told',
+    },
+    {
+        locale: {
+            ru: 'думать'
+        },
+        infinitive: 'think',
+        pastSimple: 'thought',
+        pastParticiple: 'thought',
+    },
+    {
+        locale: {
+            ru: 'кидать, бросать'
+        },
+        infinitive: 'throw',
+        pastSimple: 'threw',
+        pastParticiple: 'thrown',
+    },
+    {
+        locale: {
+            ru: 'понимать, постигать'
+        },
+        infinitive: 'understand',
+        pastSimple: 'understood',
+        pastParticiple: 'understood',
+    },
+    {
+        locale: {
+            ru: 'просыпаться, пробуждаться'
+        },
+        infinitive: 'wake',
+        pastSimple: 'woke',
+        pastParticiple: 'woken',
+    },
+    {
+        locale: {
+            ru: 'носить (одежду)'
+        },
+        infinitive: 'wear',
+        pastSimple: 'wore',
+        pastParticiple: 'worn',
+    },
+    {
+        locale: {
+            ru: 'выигрывать, побеждать'
+        },
+        infinitive: 'win',
+        pastSimple: 'won',
+        pastParticiple: 'won',
+    },
+    {
+        locale: {
+            ru: 'писать, записывать'
+        },
+        infinitive: 'write',
+        pastSimple: 'wrote',
+        pastParticiple: 'written',
+    },
 ];
 
 export { IrregularVerbs };
