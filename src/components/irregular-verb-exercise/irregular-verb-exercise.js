@@ -109,6 +109,7 @@ const IrregularVerbExercise = ({}) => {
         setPastSimpleInput(verb.pastSimple);
         setPastParticipleInput(verb.pastParticiple);
         disableButtonById(BTN_HELPME_ID);
+        document.getElementById(BTN_CHECK_ID).focus();
     };
 
     useEffect(() => {
