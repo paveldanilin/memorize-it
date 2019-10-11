@@ -23,8 +23,8 @@ export default class App extends React.Component {
                 />
                 <div className="container">
                     <Switch>
-                        <Route exact path="/">
-                            <Redirect to={{ pathname: APP_ROUTES.IRREGULAR_VERBS }} />
+                        <Route exact path="/memorize-it">
+                            <IrregularVerbs />
                         </Route>
                         <Route exact path={ APP_ROUTES.IRREGULAR_VERBS }>
                             <IrregularVerbs />

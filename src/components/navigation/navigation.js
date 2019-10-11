@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import { isMobile } from "react-device-detect";
-import Fullscreen from "../fullscreen/fullscreen";
+// import { isMobile } from "react-device-detect";
+// import Fullscreen from "../fullscreen/fullscreen";
 
 const Navigation = ({ logoText, logoLink, items }) => {
     return (
         <Navbar bg="dark" variant="dark" expand="sm" fixed="top">
-            {isMobile ? <Fullscreen requestText="&#x21f1;" exitText="&#x21f2;" /> : null }
+            { /*isMobile ? <Fullscreen requestText="&#x21f1;" exitText="&#x21f2;" /> : null*/ }
             <Navbar.Brand href={ logoLink || '#' }>{ logoText }</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
