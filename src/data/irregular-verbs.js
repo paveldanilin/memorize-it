@@ -7,6 +7,7 @@ const IrregularVerbs = [
         pastSimple: 'arose',
         pastParticiple: 'arisen',
         examples: [],
+        transcription: ['əˈraɪz', 'əˈroʊz', 'əˈrɪzən'],
     },
     {
         locale: {
@@ -15,6 +16,7 @@ const IrregularVerbs = [
         infinitive: 'awake',
         pastSimple: 'awoke',
         pastParticiple: 'awoken',
+        transcription: ['əˈweɪk', 'əˈwəʊk', 'əˈwəʊkən'],
     },
     {
         locale: {
@@ -23,6 +25,7 @@ const IrregularVerbs = [
         infinitive: 'become',
         pastSimple: 'became',
         pastParticiple: 'become',
+        transcription: ['bɪˈkʌm', 'bɪˈkeɪm', 'bɪˈkʌm'],
     },
     {
         locale: {
@@ -31,6 +34,7 @@ const IrregularVerbs = [
         infinitive: 'run',
         pastSimple: 'ran',
         pastParticiple: 'run',
+        transcription: ['rʌn', 'ræn', 'rʌn'],
     },
     {
         locale: {
@@ -39,6 +43,7 @@ const IrregularVerbs = [
         infinitive: 'beat',
         pastSimple: 'beat',
         pastParticiple: 'beaten',
+        transcription: ['biːt', 'biːt', 'ˈbiːt(ə)n'],
     },
     {
         locale: {
@@ -47,6 +52,7 @@ const IrregularVerbs = [
         infinitive: 'begin',
         pastSimple: 'began',
         pastParticiple: 'begun',
+        transcription: ['bɪˈɡɪn', 'bɪˈɡan', 'bɪˈɡʌn'],
     },
     {
         locale: {
@@ -55,6 +61,7 @@ const IrregularVerbs = [
         infinitive: 'bend',
         pastSimple: 'bent',
         pastParticiple: 'bent',
+        transcription: ['bend', 'bent', 'bent'],
     },
     {
         locale: {
@@ -63,6 +70,7 @@ const IrregularVerbs = [
         infinitive: 'bet',
         pastSimple: 'bet',
         pastParticiple: 'bet',
+        transcription: ['ˈbet', 'ˈbet', 'ˈbet'],
     },
     {
         locale: {
@@ -71,6 +79,7 @@ const IrregularVerbs = [
         infinitive: 'bite',
         pastSimple: 'bit',
         pastParticiple: 'bitten',
+        transcription: ['baɪt', 'bɪt', 'ˈbɪtn'],
     },
     {
         locale: {
@@ -79,6 +88,7 @@ const IrregularVerbs = [
         infinitive: 'bleed',
         pastSimple: 'bled',
         pastParticiple: 'bled',
+        transcription: ['bliːd', 'bled', 'bled'],
     },
     {
         locale: {
@@ -87,6 +97,7 @@ const IrregularVerbs = [
         infinitive: 'blow',
         pastSimple: 'blew',
         pastParticiple: 'blown',
+        transcription: ['bləʊ', 'bluː', 'bləʊn'],
     },
     {
         locale: {
@@ -95,6 +106,7 @@ const IrregularVerbs = [
         infinitive: 'break',
         pastSimple: 'broke',
         pastParticiple: 'broken',
+        transcription: ['breɪk', 'brəʊk', 'ˈbrəʊk(ə)n'],
     },
     {
         locale: {
@@ -103,6 +115,7 @@ const IrregularVerbs = [
         infinitive: 'breed',
         pastSimple: 'bred',
         pastParticiple: 'bred',
+        transcription: ['briːd', 'brɛd', 'brɛd'],
     },
     {
         locale: {
@@ -111,6 +124,7 @@ const IrregularVerbs = [
         infinitive: 'bring',
         pastSimple: 'brought',
         pastParticiple: 'brought',
+        transcription: ['brɪŋ', 'brɔːt', 'brɔːt'],
     },
     {
         locale: {
@@ -119,6 +133,7 @@ const IrregularVerbs = [
         infinitive: 'build',
         pastSimple: 'built',
         pastParticiple: 'built',
+        transcription: ['bɪld', 'bɪlt', 'bɪlt'],
     },
     {
         locale: {
@@ -127,6 +142,7 @@ const IrregularVerbs = [
         infinitive: 'burn',
         pastSimple: 'burnt',
         pastParticiple: 'burnt',
+        transcription: ['bɜːn', 'bɜːnt', 'bɜːnt'],
     },
     {
         locale: {
@@ -135,6 +151,7 @@ const IrregularVerbs = [
         infinitive: 'buy',
         pastSimple: 'bought',
         pastParticiple: 'bought',
+        transcription: ['baɪ', 'bɔːt', 'bɔːt'],
     },
     {
         locale: {
@@ -143,6 +160,7 @@ const IrregularVerbs = [
         infinitive: 'catch',
         pastSimple: 'caught',
         pastParticiple: 'caught',
+        transcription: ['katʃ', 'kɔːt', 'kɔːt'],
     },
     {
         locale: {
@@ -151,6 +169,7 @@ const IrregularVerbs = [
         infinitive: 'choose',
         pastSimple: 'chose',
         pastParticiple: 'chosen',
+        transcription: ['tʃuːz', 'tʃəʊz', 'ˈtʃəʊzn'],
     },
     {
         locale: {
@@ -159,6 +178,7 @@ const IrregularVerbs = [
         infinitive: 'come',
         pastSimple: 'came',
         pastParticiple: 'come',
+        transcription: ['kʌm', 'keɪm', 'kʌm'],
     },
     {
         locale: {
@@ -167,6 +187,7 @@ const IrregularVerbs = [
         infinitive: 'cost',
         pastSimple: 'cost',
         pastParticiple: 'cost',
+        transcription: ['kɒst', 'kɒst', 'kɒst'],
     },
     {
         locale: {
@@ -175,6 +196,7 @@ const IrregularVerbs = [
         infinitive: 'cut',
         pastSimple: 'cut',
         pastParticiple: 'cut',
+        transcription: ['kʌt', 'kʌt', 'kʌt'],
     },
     {
         locale: {
@@ -183,6 +205,7 @@ const IrregularVerbs = [
         infinitive: 'do',
         pastSimple: 'did',
         pastParticiple: 'done',
+        transcription: ['duː', 'dɪd', 'dʌn'],
     },
     {
         locale: {
@@ -191,6 +214,7 @@ const IrregularVerbs = [
         infinitive: 'dig',
         pastSimple: 'dug',
         pastParticiple: 'dug',
+        transcription: ['dɪɡ', 'dʌɡ', 'dʌɡ'],
     },
     {
         locale: {
@@ -199,6 +223,7 @@ const IrregularVerbs = [
         infinitive: 'draw',
         pastSimple: 'drew',
         pastParticiple: 'drawn',
+        transcription: ['drɔː', 'druː', 'drɔːn'],
     },
     {
         locale: {
@@ -207,6 +232,7 @@ const IrregularVerbs = [
         infinitive: 'dream',
         pastSimple: 'dreamt',
         pastParticiple: 'dreamt',
+        transcription: ['driːm', 'dremt', 'dremt'],
     },
     {
         locale: {
@@ -215,6 +241,7 @@ const IrregularVerbs = [
         infinitive: 'drink',
         pastSimple: 'drank',
         pastParticiple: 'drunk',
+        transcription: ['drɪŋk', 'draŋk', 'drʌŋk'],
     },
     {
         locale: {
@@ -223,6 +250,7 @@ const IrregularVerbs = [
         infinitive: 'drive',
         pastSimple: 'drove',
         pastParticiple: 'driven',
+        transcription: ['drʌɪv', 'drəʊv', 'ˈdrɪvn'],
     },
     {
         locale: {
@@ -231,6 +259,7 @@ const IrregularVerbs = [
         infinitive: 'eat',
         pastSimple: 'ate',
         pastParticiple: 'eaten',
+        transcription: ['iːt', 'et', 'ˈiːtən'],
     },
     {
         locale: {
@@ -239,6 +268,7 @@ const IrregularVerbs = [
         infinitive: 'fall',
         pastSimple: 'fell',
         pastParticiple: 'fallen',
+        transcription: ['fɔːl', 'fel', 'ˈfɔːlən'],
     },
     {
         locale: {
@@ -247,6 +277,7 @@ const IrregularVerbs = [
         infinitive: 'feed',
         pastSimple: 'fed',
         pastParticiple: 'fed',
+        transcription: ['fiːd', 'fed', 'fed'],
     },
     {
         locale: {
@@ -255,6 +286,7 @@ const IrregularVerbs = [
         infinitive: 'feel',
         pastSimple: 'felt',
         pastParticiple: 'felt',
+        transcription: ['fiːl', 'felt', 'felt'],
     },
     {
         locale: {
@@ -263,6 +295,7 @@ const IrregularVerbs = [
         infinitive: 'fight',
         pastSimple: 'fought',
         pastParticiple: 'fought',
+        transcription: ['fʌɪt', 'fɔːt', 'fɔːt'],
     },
     {
         locale: {
@@ -271,6 +304,7 @@ const IrregularVerbs = [
         infinitive: 'find',
         pastSimple: 'found',
         pastParticiple: 'found',
+        transcription: ['faɪnd', 'faʊnd', 'faʊnd'],
     },
     {
         locale: {
@@ -279,6 +313,7 @@ const IrregularVerbs = [
         infinitive: 'fly',
         pastSimple: 'flew',
         pastParticiple: 'flown',
+        transcription: ['flaɪ', 'fluː', 'fləʊn'],
     },
     {
         locale: {
@@ -287,6 +322,7 @@ const IrregularVerbs = [
         infinitive: 'forget',
         pastSimple: 'forgot',
         pastParticiple: 'forgotten',
+        transcription: ['fəˈɡɛt', 'fəˈɡɒt', 'fəˈɡɒtn'],
     },
     {
         locale: {
@@ -295,6 +331,7 @@ const IrregularVerbs = [
         infinitive: 'forgive',
         pastSimple: 'forgave',
         pastParticiple: 'forgiven',
+        transcription: ['fəˈɡɪv', 'fəˈɡeɪv', 'fəˈɡɪvən'],
     },
     {
         locale: {
@@ -303,6 +340,7 @@ const IrregularVerbs = [
         infinitive: 'freeze',
         pastSimple: 'froze',
         pastParticiple: 'frozen',
+        transcription: ['friːz', 'frəʊz', 'ˈfrəʊzn'],
     },
     {
         locale: {
@@ -311,6 +349,7 @@ const IrregularVerbs = [
         infinitive: 'get',
         pastSimple: 'got',
         pastParticiple: 'got',
+        transcription: ['ˈɡet', 'ˈɡɒt', 'ˈɡɒt'],
     },
     {
         locale: {
@@ -319,6 +358,7 @@ const IrregularVerbs = [
         infinitive: 'give',
         pastSimple: 'gave',
         pastParticiple: 'given',
+        transcription: ['ɡɪv', 'ɡeɪv', 'ˈɡɪv(ə)n'],
     },
     {
         locale: {
@@ -327,6 +367,7 @@ const IrregularVerbs = [
         infinitive: 'go',
         pastSimple: 'went',
         pastParticiple: 'gone',
+        transcription: ['ɡəʊ', 'ˈwent', 'ɡɒn'],
     },
     {
         locale: {
@@ -335,6 +376,7 @@ const IrregularVerbs = [
         infinitive: 'grow',
         pastSimple: 'grew',
         pastParticiple: 'grown',
+        transcription: ['ɡrəʊ', 'ɡruː', 'ɡrəʊn'],
     },
     {
         locale: {
@@ -343,6 +385,7 @@ const IrregularVerbs = [
         infinitive: 'have',
         pastSimple: 'had',
         pastParticiple: 'had',
+        transcription: ['hæv', 'hæd', 'hæd'],
     },
     {
         locale: {
@@ -351,6 +394,7 @@ const IrregularVerbs = [
         infinitive: 'hear',
         pastSimple: 'heard',
         pastParticiple: 'heard',
+        transcription: ['hɪə', 'hɜːd', 'hɜːd'],
     },
     {
         locale: {
@@ -359,6 +403,7 @@ const IrregularVerbs = [
         infinitive: 'hide',
         pastSimple: 'hid',
         pastParticiple: 'hidden',
+        transcription: ['haɪd', 'hɪd', 'ˈhɪdn'],
     },
     {
         locale: {
@@ -367,6 +412,7 @@ const IrregularVerbs = [
         infinitive: 'hit',
         pastSimple: 'hit',
         pastParticiple: 'hit',
+        transcription: ['hɪt', 'hɪt', 'hɪt'],
     },
     {
         locale: {
@@ -375,6 +421,7 @@ const IrregularVerbs = [
         infinitive: 'hold',
         pastSimple: 'held',
         pastParticiple: 'held',
+        transcription: ['həʊld', 'held', 'held'],
     },
     {
         locale: {
@@ -383,6 +430,7 @@ const IrregularVerbs = [
         infinitive: 'hurt',
         pastSimple: 'hurt',
         pastParticiple: 'hurt',
+        transcription: ['hɜːt', 'hɜːt', 'hɜːt'],
     },
     {
         locale: {
@@ -391,6 +439,7 @@ const IrregularVerbs = [
         infinitive: 'keep',
         pastSimple: 'kept',
         pastParticiple: 'kept',
+        transcription: ['kiːp', 'kept', 'kept'],
     },
     {
         locale: {
@@ -399,6 +448,7 @@ const IrregularVerbs = [
         infinitive: 'know',
         pastSimple: 'knew',
         pastParticiple: 'known',
+        transcription: ['nəʊ', 'njuː', 'nəʊn'],
     },
     {
         locale: {
@@ -407,6 +457,7 @@ const IrregularVerbs = [
         infinitive: 'lay',
         pastSimple: 'laid',
         pastParticiple: 'laid',
+        transcription: ['leɪ', 'leɪd', 'leɪd'],
     },
     {
         locale: {
@@ -415,6 +466,7 @@ const IrregularVerbs = [
         infinitive: 'lead',
         pastSimple: 'led',
         pastParticiple: 'led',
+        transcription: ['liːd', 'led', 'led'],
     },
     {
         locale: {
@@ -423,6 +475,7 @@ const IrregularVerbs = [
         infinitive: 'lean',
         pastSimple: 'leant',
         pastParticiple: 'leant',
+        transcription: ['liːn', 'lent', 'lent'],
     },
     {
         locale: {
@@ -431,6 +484,7 @@ const IrregularVerbs = [
         infinitive: 'leave',
         pastSimple: 'left',
         pastParticiple: 'left',
+        transcription: ['liːv', 'left', 'left'],
     },
     {
         locale: {
@@ -439,6 +493,7 @@ const IrregularVerbs = [
         infinitive: 'lend',
         pastSimple: 'lent',
         pastParticiple: 'lent',
+        transcription: ['lend', 'lent', 'lent'],
     },
     {
         locale: {
@@ -447,6 +502,7 @@ const IrregularVerbs = [
         infinitive: 'let',
         pastSimple: 'let',
         pastParticiple: 'let',
+        transcription: ['let', 'let', 'let'],
     },
     {
         locale: {
@@ -455,6 +511,7 @@ const IrregularVerbs = [
         infinitive: 'lose',
         pastSimple: 'lost',
         pastParticiple: 'lost',
+        transcription: ['luːz', 'lɒst', 'lɒst'],
     },
     {
         locale: {
@@ -463,6 +520,7 @@ const IrregularVerbs = [
         infinitive: 'make',
         pastSimple: 'made',
         pastParticiple: 'made',
+        transcription: ['ˈmeɪk', 'ˈmeɪd', 'ˈmeɪd'],
     },
     {
         locale: {
@@ -471,6 +529,7 @@ const IrregularVerbs = [
         infinitive: 'mean',
         pastSimple: 'meant',
         pastParticiple: 'meant',
+        transcription: ['miːn', 'mɛnt', 'mɛnt'],
     },
     {
         locale: {
@@ -479,14 +538,7 @@ const IrregularVerbs = [
         infinitive: 'meet',
         pastSimple: 'met',
         pastParticiple: 'met',
-    },
-    {
-        locale: {
-            ru: 'встречать, знакомиться, соответсвовать (требованиям)'
-        },
-        infinitive: 'meet',
-        pastSimple: 'met',
-        pastParticiple: 'met',
+        transcription: ['miːt', 'met', 'met'],
     },
     {
         locale: {
@@ -495,6 +547,7 @@ const IrregularVerbs = [
         infinitive: 'pay',
         pastSimple: 'paid',
         pastParticiple: 'paid',
+        transcription: ['peɪ', 'peɪd', 'peɪd'],
     },
     {
         locale: {
@@ -503,6 +556,7 @@ const IrregularVerbs = [
         infinitive: 'put',
         pastSimple: 'put',
         pastParticiple: 'put',
+        transcription: ['ˈpʊt', 'ˈpʊt', 'ˈpʊt'],
     },
     {
         locale: {
@@ -511,6 +565,7 @@ const IrregularVerbs = [
         infinitive: 'quit',
         pastSimple: 'quit',
         pastParticiple: 'quit',
+        transcription: ['kwɪt', 'kwɪt', 'kwɪt'],
     },
     {
         locale: {
@@ -519,6 +574,7 @@ const IrregularVerbs = [
         infinitive: 'read',
         pastSimple: 'read',
         pastParticiple: 'read',
+        transcription: ['riːd', 'red', 'red'],
     },
     {
         locale: {
@@ -527,6 +583,7 @@ const IrregularVerbs = [
         infinitive: 'ride',
         pastSimple: 'rode',
         pastParticiple: 'ridden',
+        transcription: ['raɪd', 'rəʊd', 'ˈrɪdn'],
     },
     {
         locale: {
@@ -535,6 +592,7 @@ const IrregularVerbs = [
         infinitive: 'ring',
         pastSimple: 'rang',
         pastParticiple: 'rung',
+        transcription: ['rɪŋ', 'ræŋ', 'rʌŋ'],
     },
     {
         locale: {
@@ -543,6 +601,7 @@ const IrregularVerbs = [
         infinitive: 'say',
         pastSimple: 'said',
         pastParticiple: 'said',
+        transcription: ['ˈseɪ', 'ˈsed', 'ˈsed'],
     },
     {
         locale: {
@@ -551,6 +610,7 @@ const IrregularVerbs = [
         infinitive: 'see',
         pastSimple: 'saw',
         pastParticiple: 'seen',
+        transcription: ['ˈsiː', 'ˈsɔː', 'ˈsiːn'],
     },
     {
         locale: {
@@ -559,6 +619,7 @@ const IrregularVerbs = [
         infinitive: 'sell',
         pastSimple: 'sold',
         pastParticiple: 'sold',
+        transcription: ['sel', 'səʊld', 'səʊld'],
     },
     {
         locale: {
@@ -567,6 +628,7 @@ const IrregularVerbs = [
         infinitive: 'send',
         pastSimple: 'sent',
         pastParticiple: 'sent',
+        transcription: ['send', 'sent', 'sent'],
     },
     {
         locale: {
@@ -575,6 +637,7 @@ const IrregularVerbs = [
         infinitive: 'set',
         pastSimple: 'set',
         pastParticiple: 'set',
+        transcription: ['set', 'set', 'set'],
     },
     {
         locale: {
@@ -583,6 +646,7 @@ const IrregularVerbs = [
         infinitive: 'shake',
         pastSimple: 'shook',
         pastParticiple: 'shaken',
+        transcription: ['ʃeɪk', 'ʃʊk', 'ˈʃeɪkən'],
     },
     {
         locale: {
@@ -591,6 +655,7 @@ const IrregularVerbs = [
         infinitive: 'shine',
         pastSimple: 'shone',
         pastParticiple: 'shone',
+        transcription: ['ʃʌɪn', 'ʃɒn', 'ʃɒn'],
     },
     {
         locale: {
@@ -599,6 +664,7 @@ const IrregularVerbs = [
         infinitive: 'shoot',
         pastSimple: 'shot',
         pastParticiple: 'shot',
+        transcription: ['ʃuːt', 'ʃɒt', 'ʃɒt'],
     },
     {
         locale: {
@@ -607,6 +673,7 @@ const IrregularVerbs = [
         infinitive: 'show',
         pastSimple: 'showed',
         pastParticiple: 'shown',
+        transcription: ['ʃəʊ', 'ʃəʊd', 'ʃəʊn'],
     },
     {
         locale: {
@@ -615,6 +682,7 @@ const IrregularVerbs = [
         infinitive: 'shrink',
         pastSimple: 'shrank',
         pastParticiple: 'shrunk',
+        transcription: ['ʃrɪŋk', 'ʃraŋk', 'ʃrʌŋk'],
     },
     {
         locale: {
@@ -623,6 +691,7 @@ const IrregularVerbs = [
         infinitive: 'shut',
         pastSimple: 'shut',
         pastParticiple: 'shut',
+        transcription: ['ʃʌt', 'ʃʌt', 'ʃʌt'],
     },
     {
         locale: {
@@ -631,6 +700,7 @@ const IrregularVerbs = [
         infinitive: 'sing',
         pastSimple: 'sang',
         pastParticiple: 'sung',
+        transcription: ['sɪŋ', 'sæŋ', 'sʌŋ'],
     },
     {
         locale: {
@@ -639,6 +709,7 @@ const IrregularVerbs = [
         infinitive: 'sink',
         pastSimple: 'sank',
         pastParticiple: 'sunk',
+        transcription: ['sɪŋk', 'sæŋk', 'sʌŋk'],
     },
     {
         locale: {
@@ -647,6 +718,7 @@ const IrregularVerbs = [
         infinitive: 'sit',
         pastSimple: 'sat',
         pastParticiple: 'sat',
+        transcription: ['sɪt', 'sæt', 'sæt'],
     },
     {
         locale: {
@@ -655,6 +727,7 @@ const IrregularVerbs = [
         infinitive: 'sleep',
         pastSimple: 'slept',
         pastParticiple: 'slept',
+        transcription: ['sliːp', 'slɛpt', 'slɛpt'],
     },
     {
         locale: {
@@ -663,6 +736,7 @@ const IrregularVerbs = [
         infinitive: 'speak',
         pastSimple: 'spoke',
         pastParticiple: 'spoken',
+        transcription: ['spiːk', 'spəʊk', 'ˈspəʊk(ə)n'],
     },
     {
         locale: {
@@ -671,6 +745,7 @@ const IrregularVerbs = [
         infinitive: 'spend',
         pastSimple: 'spent',
         pastParticiple: 'spent',
+        transcription: ['spɛnd', 'spɛnt', 'spɛnt'],
     },
     {
         locale: {
@@ -679,6 +754,7 @@ const IrregularVerbs = [
         infinitive: 'spill',
         pastSimple: 'spilt',
         pastParticiple: 'spilt',
+        transcription: ['spɪl', 'spɪlt', 'spɪlt'],
     },
     {
         locale: {
@@ -687,6 +763,7 @@ const IrregularVerbs = [
         infinitive: 'spread',
         pastSimple: 'spread',
         pastParticiple: 'spread',
+        transcription: ['sprɛd', 'sprɛd', 'sprɛd'],
     },
     {
         locale: {
@@ -695,6 +772,7 @@ const IrregularVerbs = [
         infinitive: 'speed',
         pastSimple: 'sped',
         pastParticiple: 'sped',
+        transcription: ['spiːd', 'spɛd', 'spɛd'],
     },
     {
         locale: {
@@ -703,6 +781,7 @@ const IrregularVerbs = [
         infinitive: 'stand',
         pastSimple: 'stood',
         pastParticiple: 'stood',
+        transcription: ['stand', 'stʊd', 'stʊd'],
     },
     {
         locale: {
@@ -711,6 +790,7 @@ const IrregularVerbs = [
         infinitive: 'steal',
         pastSimple: 'stole',
         pastParticiple: 'stolen',
+        transcription: ['stiːl', 'stəʊl', 'ˈstəʊlən'],
     },
     {
         locale: {
@@ -719,6 +799,7 @@ const IrregularVerbs = [
         infinitive: 'stick',
         pastSimple: 'stuck',
         pastParticiple: 'stuck',
+        transcription: ['stɪk', 'stʌk', 'stʌk'],
     },
     {
         locale: {
@@ -727,6 +808,7 @@ const IrregularVerbs = [
         infinitive: 'sting',
         pastSimple: 'stung',
         pastParticiple: 'stung',
+        transcription: ['stɪŋ', 'stʌŋ', 'stʌŋ'],
     },
     {
         locale: {
@@ -735,6 +817,7 @@ const IrregularVerbs = [
         infinitive: 'stink',
         pastSimple: 'stank',
         pastParticiple: 'stunk',
+        transcription: ['stɪŋk', 'staŋk', 'stʌŋk'],
     },
     {
         locale: {
@@ -743,6 +826,7 @@ const IrregularVerbs = [
         infinitive: 'swear',
         pastSimple: 'swore',
         pastParticiple: 'sworn',
+        transcription: ['swɛː', 'swɔː', 'swɔːn'],
     },
     {
         locale: {
@@ -751,6 +835,7 @@ const IrregularVerbs = [
         infinitive: 'sweep',
         pastSimple: 'swept',
         pastParticiple: 'swept',
+        transcription: ['swiːp', 'swɛpt', 'swɛpt'],
     },
     {
         locale: {
@@ -759,6 +844,7 @@ const IrregularVerbs = [
         infinitive: 'swim',
         pastSimple: 'swam',
         pastParticiple: 'swum',
+        transcription: ['swɪm', 'swæm', 'swʌm'],
     },
     {
         locale: {
@@ -767,6 +853,7 @@ const IrregularVerbs = [
         infinitive: 'swing',
         pastSimple: 'swung',
         pastParticiple: 'swung',
+        transcription: ['swɪŋ', 'swʌŋ', 'swʌŋ'],
     },
     {
         locale: {
@@ -775,6 +862,7 @@ const IrregularVerbs = [
         infinitive: 'take',
         pastSimple: 'took',
         pastParticiple: 'taken',
+        transcription: ['teɪk', 'tʊk', 'ˈteɪkən'],
     },
     {
         locale: {
@@ -783,6 +871,7 @@ const IrregularVerbs = [
         infinitive: 'teach',
         pastSimple: 'taught',
         pastParticiple: 'taught',
+        transcription: ['tiːtʃ', 'tɔːt', 'tɔːt'],
     },
     {
         locale: {
@@ -791,6 +880,7 @@ const IrregularVerbs = [
         infinitive: 'tear',
         pastSimple: 'tore',
         pastParticiple: 'torn',
+        transcription: ['ˈtɪə', 'ˈtɔː', 'ˈtɔːn'],
     },
     {
         locale: {
@@ -799,6 +889,7 @@ const IrregularVerbs = [
         infinitive: 'tell',
         pastSimple: 'told',
         pastParticiple: 'told',
+        transcription: ['tel', 'təʊld', 'təʊld'],
     },
     {
         locale: {
@@ -807,6 +898,7 @@ const IrregularVerbs = [
         infinitive: 'think',
         pastSimple: 'thought',
         pastParticiple: 'thought',
+        transcription: ['θɪŋk', 'θɔːt', 'θɔːt'],
     },
     {
         locale: {
@@ -815,6 +907,7 @@ const IrregularVerbs = [
         infinitive: 'throw',
         pastSimple: 'threw',
         pastParticiple: 'thrown',
+        transcription: ['θrəʊ', 'θruː', 'θroʊn'],
     },
     {
         locale: {
@@ -823,6 +916,7 @@ const IrregularVerbs = [
         infinitive: 'understand',
         pastSimple: 'understood',
         pastParticiple: 'understood',
+        transcription: ['ʌndəˈstand', 'ʌndəˈstʊd', 'ʌndəˈstʊd'],
     },
     {
         locale: {
@@ -831,6 +925,7 @@ const IrregularVerbs = [
         infinitive: 'wake',
         pastSimple: 'woke',
         pastParticiple: 'woken',
+        transcription: ['weɪk', 'wəʊk', 'ˈwəʊkən'],
     },
     {
         locale: {
@@ -839,6 +934,7 @@ const IrregularVerbs = [
         infinitive: 'wear',
         pastSimple: 'wore',
         pastParticiple: 'worn',
+        transcription: ['weə', 'wɔː', 'wɔːn'],
     },
     {
         locale: {
@@ -847,6 +943,7 @@ const IrregularVerbs = [
         infinitive: 'win',
         pastSimple: 'won',
         pastParticiple: 'won',
+        transcription: ['wɪn', 'wʌn', 'wʌn'],
     },
     {
         locale: {
@@ -855,6 +952,7 @@ const IrregularVerbs = [
         infinitive: 'write',
         pastSimple: 'wrote',
         pastParticiple: 'written',
+        transcription: ['rʌɪt', 'rəʊt', 'ˈrɪtn'],
     },
 ];
 

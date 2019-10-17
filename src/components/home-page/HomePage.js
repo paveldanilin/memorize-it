@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import IrregularVerbExercise from '../irregular-verb-exercise/irregular-verb-exercise';
+import Index from '../irregular-verbs/irregular-verb-exercise';
 
 const HomePage = ({}) => {
 
     return (
         <>
-            <IrregularVerbExercise />
+            <Index />
         </>
     );
 };

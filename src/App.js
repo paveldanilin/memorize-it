@@ -1,8 +1,10 @@
-import * as React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
-import HomePage from './components/home-page/HomePage';
+import APP_ROUTES from "./routes";
 import NotFoundPage from "./components/notfound-page/NotFoundPage";
+import Navigation from './components/navigation/Navigation';
+import IrregularVerbs from "./components/irregular-verbs/irregular-verbs";
 
 export default class App extends React.Component {
     constructor(props) {
@@ -12,25 +14,29 @@ export default class App extends React.Component {
     render() {
         return (
             <Router>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-sm-12">
-                                <h2 className="display-4 text-center">Memorize it!</h2>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm-12">
-                                <Switch>
-                                    <Route path="/">
-                                        <HomePage />
-                                    </Route>
-                                    <Route>
-                                        <NotFoundPage/>
-                                    </Route>
-                                </Switch>
-                            </div>
-                        </div>
-                    </div>
+                <Navigation logoText="Memorize-it!"
+                            logoLink="/"
+                            items={[
+                                { link: APP_ROUTES.IRREGULAR_VERBS, text: 'Неправильные глаголы' },
+                                { link: APP_ROUTES.PHRASAL_VERBS, text: 'Фразовые глаголы' }
+                                ]}
+                />
+                <div className="container">
+                    <Switch>
+                        <Route exact path="/memorize-it">
+                            <IrregularVerbs />
+                        </Route>
+                        <Route exact path={ APP_ROUTES.IRREGULAR_VERBS }>
+                            <IrregularVerbs />
+                        </Route>
+                        <Route exact path={ APP_ROUTES.PHRASAL_VERBS }>
+                            <span>Phrasal verbs</span>
+                        </Route>
+                        <Route>
+                            <NotFoundPage/>
+                        </Route>
+                    </Switch>
+                </div>
             </Router>
         );
     }
