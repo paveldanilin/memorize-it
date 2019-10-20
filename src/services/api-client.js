@@ -9,7 +9,7 @@ export default class ApiClient {
         });
     }
 
-    static create({ baseUrl = '', timeout = 1000 }) {
+    static create({ baseUrl = '', timeout = 5000 }) {
         return new ApiClient(baseUrl, timeout);
     }
 
